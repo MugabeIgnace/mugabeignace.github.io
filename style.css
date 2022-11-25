@@ -1,0 +1,209 @@
+body {
+    background-color: #000000;
+}
+
+#cv {
+    margin: 20%;
+    position: relative;
+    width: 595px;
+    height: 842px;
+
+    background-color: #ffffff;
+}
+
+#top {
+    /* Rectangle 1*/
+
+    position: absolute;
+    width: 595px;
+    height: 194px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(29, 26, 184, 0.04);
+}
+
+#image {
+    /* image 1 */
+
+    position: absolute;
+    width: 151px;
+    height: 153px;
+    left: 41px;
+    top: 40px;
+    background-image: url("image.png");
+    border-radius: 48px;
+    background-size: contain;
+
+}
+
+#top>h1 {
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    top: 70px;
+    left: 279px;
+
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #001AFF;
+
+
+}
+
+#top>p {
+    position: relative;
+    width: 289px;
+    height: 80px;
+    left: 279px;
+    top: 99px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+#left {
+    /* Rectangle 2 */
+
+    position: absolute;
+    width: 266px;
+    height: 648px;
+    left: 0px;
+    top: 194px;
+
+    background: rgba(217, 217, 217, 0.18);
+}
+
+#left>h2 {
+    position: relative;
+    width: 62px;
+    height: 19px;
+    left: 29px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /*identical to box height*/
+    display: flex;
+    align-items: flex-end;
+    color: #001AFF;
+    margin-bottom: 1rem;
+}
+
+#right {
+    /* Rectangle 3 */
+
+    position: absolute;
+    width: 329px;
+    height: 648px;
+    left: 266px;
+    top: 194px;
+    background: rgba(6, 19, 136, 0.12);
+}
+
+#right>#education>h2,#right>#certificate>h2, #right>#experience>h2,#right>#interest>h2 {
+    position: relative;
+    width: 62px;
+    height: 19px;
+    margin-left: 18px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /*identical to box height*/
+    display: flex;
+    align-items: flex-end;
+    color: #001AFF;
+    margin-bottom: 1rem;
+}
+
+#right>#education>h4 ,#right>#certificate>h4{
+    position: relative;
+    height: 16px;
+    margin-left: 18px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #001AFF;
+    margin-bottom: 0.5rem;
+
+}
+
+#right>#education>p, #right>#certificate>p,#right>#experience>p ,#right>#interest>p{
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 16px;
+    font-size: 14px;
+    position: inherit;
+    color: #000000;
+    margin-left: 18px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#right>#education>h6, #right>#certificate>h6, #right>#experience>h6 {
+
+    font-family: 'Consolas';
+    margin-top: 0;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    position: inherit;
+    color: #000000;
+    margin-left: 18px;
+    display: flex;
+    align-items: flex-end;
+}
+#contact>h6{
+    font-family: 'Consolas';
+    position: relative;
+    margin-top: 0;
+    font-style:normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    position: inherit;
+    color: #001AFF;
+    margin-left: 28px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+#contact>h6>a,#contact>h6>address{
+    font-family: 'Consolas';
+    position: relative;
+    font-style: normal;
+    position: relative;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    line-height: 16px;
+}
+
+.image{
+    margin-right: 0.5rem;
+}
